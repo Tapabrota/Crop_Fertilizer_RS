@@ -1,9 +1,9 @@
 # Crop & Fertilizer RS
 This proect help us to develop an intelligent system for recommending suitable crops and fertilizers based on soil conditions,climate conditions.
 week1 Crop & Fertilizer Recommendation System Using ML
-Crop Recommendation System
+<br>
 Overview
-This project involves analyzing agricultural data to develop a crop recommendation system. Using various machine learning and data analysis techniques, the system aims to recommend the most suitable crops based on specific environmental and soil parameters. The dataset used is Crop_recommendation.csv.
+This project involves analyzing agricultural data to develop a crop recommendation system. Using various machine learning and data analysis techniques, the system aims to recommend the most suitable crops based on specific environmental and soil parameters.
 
 Features
 Data analysis and visualization using Python libraries.
