@@ -26,13 +26,19 @@ This project involves analyzing agricultural data to develop a crop recommendati
 - Install the required dependencies:
   -pip install -r requirements.txt
 ## Dataset
-The dataset Crop_recommendation.csv includes information on various factors influencing crop growth, such as:
+1. The dataset Crop_recommendation.csv includes information on various factors influencing crop growth, such as:
 
 - Soil pH
 - Rainfall
 - Temperature
 - Humidity
 - Nutrient levels
+
+2. The project uses the Crop_recommendation.csv dataset, which contains:
+
+- Various soil parameters
+- Weather conditions
+- Crop labels
 ## Usage
 1. Load the dataset:
 import pandas as pd
@@ -45,12 +51,12 @@ crop.shape   # Get dataset dimensions
 ## Example Output
 - Recommendations for the most suitable crop based on user input.
 - Visualizations highlighting correlations and trends.
+## Files in This Repository
+- crop.ipynb - Jupyter Notebook containing analysis and implementation.
+- Dataset/Crop_recommendation.csv - The dataset used for recommendations.
+- README.md - This documentation file.
 ## Contributing
 Contributions are welcome! Please fork the repository and submit a pull request with your changes.
-
-## License
-This project is licensed under the MIT License. See the LICENSE file for more details.
-
 ## Acknowledgments
 Dataset Source: Provide the link or credit to the dataset source.
 Inspiration for this project came from the need to support farmers in making data-driven decisions.
