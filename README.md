@@ -13,44 +13,44 @@ This project involves analyzing agricultural data to develop a crop recommendati
 
 ## Technologies Used
 
-Python: Programming language for data manipulation and analysis.
-NumPy: For numerical computations.
-pandas: For data manipulation and preprocessing.
-matplotlib and seaborn: For data visualization.
-scikit-learn: For machine learning models (if applicable).
-##Installation
-Clone the repository:
-git clone https://github.com/your-repository-link.git
-Navigate to the project directory:
-cd crop-recommendation-system
-Install the required dependencies:
-pip install -r requirements.txt
-Dataset
+- Python: Programming language for data manipulation and analysis.
+- NumPy: For numerical computations.
+- pandas: For data manipulation and preprocessing.
+- matplotlib and seaborn: For data visualization.
+- scikit-learn: For machine learning models (if applicable).
+## Installation
+- Clone the repository:
+ - git clone https://github.com/your-repository-link.git
+- Navigate to the project directory:
+ - cd crop-recommendation-system
+- Install the required dependencies:
+  -pip install -r requirements.txt
+## Dataset
 The dataset Crop_recommendation.csv includes information on various factors influencing crop growth, such as:
 
-Soil pH
-Rainfall
-Temperature
-Humidity
-Nutrient levels
-Usage
-Load the dataset:
+- Soil pH
+- Rainfall
+- Temperature
+- Humidity
+- Nutrient levels
+## Usage
+1. Load the dataset:
 import pandas as pd
 crop = pd.read_csv("Dataset/Crop_recommendation.csv")
-Perform exploratory data analysis (EDA) to understand the dataset:
+2. Perform exploratory data analysis (EDA) to understand the dataset:
 crop.head()  # View the first 5 rows
 crop.shape   # Get dataset dimensions
-Use visualization tools like seaborn and matplotlib to uncover patterns and trends.
-Implement machine learning models (if included) to predict suitable crops based on input parameters.
-Example Output
-Recommendations for the most suitable crop based on user input.
-Visualizations highlighting correlations and trends.
-Contributing
+3. Use visualization tools like seaborn and matplotlib to uncover patterns and trends.
+4. Implement machine learning models (if included) to predict suitable crops based on input parameters.
+## Example Output
+- Recommendations for the most suitable crop based on user input.
+- Visualizations highlighting correlations and trends.
+## Contributing
 Contributions are welcome! Please fork the repository and submit a pull request with your changes.
 
-License
+## License
 This project is licensed under the MIT License. See the LICENSE file for more details.
 
-Acknowledgments
+## Acknowledgments
 Dataset Source: Provide the link or credit to the dataset source.
 Inspiration for this project came from the need to support farmers in making data-driven decisions.
