@@ -91,7 +91,8 @@ _(Add relevant screenshots of your code, EDA, model accuracy, and web interface 
 ## Contributors
 - **TAPABROTA CHANGDER** - AI/ML Developer
 
-## Contributions are welcome! Please fork the repository and submit a pull request with your changes.
+## Contributing 
+Contributions are welcome! Please fork the repository and submit a pull request with your changes.
 
 ## License
 This project is licensed under the **MIT License**.
